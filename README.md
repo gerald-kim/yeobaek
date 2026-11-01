@@ -4,6 +4,9 @@
 Regular와 별도의 Bold TTF를 만듭니다. 이 저장소에는 빌드 코드와 라이선스가
 들어 있으며, 원본 폰트와 생성된 바이너리는 포함하지 않습니다.
 
+**설치용 폰트:** [최신 릴리스](https://github.com/gerald-kim/yeobaek/releases/latest)에서
+ZIP을 받아 Regular와 Bold TTF를 함께 설치하세요. 직접 빌드하려면 아래 절차를 따르세요.
+
 Yeobaek combines RIDIBatang Korean with Libron Latin and digits for mixed-language
 reading. This is an experimental derivative, not an official RIDI, Sandoll or
 Libron release. Both faces use the family name **Yeobaek** (Korean: **여백**).
