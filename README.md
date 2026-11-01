@@ -7,6 +7,13 @@ Regular와 별도의 Bold TTF를 만듭니다. 이 저장소에는 빌드 코드
 **설치용 폰트:** [최신 릴리스](https://github.com/gerald-kim/yeobaek/releases/latest)에서
 ZIP을 받아 Regular와 Bold TTF를 함께 설치하세요. 직접 빌드하려면 아래 절차를 따르세요.
 
+![여백 견본: 월든의 여백·시간·세 개의 의자 대목을 영어와 한국어로 읽고, 숫자가 섞인 같은 문장을 Regular와 Bold로 비교합니다.](docs/specimen.svg)
+
+영문은 헨리 데이비드 소로의 [『월든』 원문](https://www.gutenberg.org/files/205/205-h/205-h.htm)에서
+골랐습니다. 한국어는 견본용으로 직접 번역했으며, 아래의 한영·숫자 혼합 문장은
+‘세 개의 의자’ 대목을 바탕으로 만든 조판 예문입니다. 이미지는 v0.004 TTF의 실제
+윤곽선으로 렌더링했습니다.
+
 Yeobaek combines RIDIBatang Korean with Libron Latin and digits for mixed-language
 reading. This is an experimental derivative, not an official RIDI, Sandoll or
 Libron release. Both faces use the family name **Yeobaek** (Korean: **여백**).
@@ -52,6 +59,13 @@ OTF에서 확보했습니다. 준비 당시 공식 다운로드가 HTTP 403을 �
 출력에는 두 TTF, `OFL.txt`, 입력 정보, 빌드·검증 보고서, `specimen.html`이 포함됩니다.
 두 TTF를 함께 설치하거나 리더 앱에 가져오세요. `specimen.html`은 가상 굵게를
 금지하고 별도 Bold 파일을 지정한 비교 페이지입니다.
+
+README 견본은 같은 빌드 환경에서 다음과 같이 재생성할 수 있습니다.
+출력 파일은 새 경로를 지정해야 합니다.
+
+```sh
+python3 specimen.py /path/to/output/yeobaek /path/to/new-specimen.svg
+```
 
 ## 검증과 한계
 
