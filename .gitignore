@@ -1,0 +1,10 @@
+*.ttf
+*.otf
+*.sfd
+*.zip
+__pycache__/
+.venv/
+inputs/
+out/
+dist/
+tmp/

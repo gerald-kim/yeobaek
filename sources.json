@@ -1,0 +1,13 @@
+{
+  "libron_version": "v0.32",
+  "libron_release": "https://github.com/nicoverbruggen/libron/releases/tag/v0.32",
+  "libron_archive": "https://github.com/nicoverbruggen/libron/releases/download/v0.32/Libron.zip",
+  "ridibatang_version": "1.0.1",
+  "ridibatang_source": "https://ridicorp.com/ridibatang/",
+  "ridibatang_note": "Reference OTF was an existing locally installed original. Official download returned HTTP 403 during setup. Inputs are not redistributed in this repository.",
+  "sha256": {
+    "Libron-Regular.ttf": "f7924d25b01d3ef2aac6fc961048272d0ee4ce81bc18be0f6310594e5ef3a6a8",
+    "Libron-Bold.ttf": "da9348facda55d5c584b37fd24659dda3aa2ca0c6fc0c2a9316faa8babace29e",
+    "RIDIBatang.otf": "f13a49c0815d254ac15e392953a0b056613dec08ceb378e54eeed14c4fda9a54"
+  }
+}
